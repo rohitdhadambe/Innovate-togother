@@ -63,6 +63,7 @@ If you have any feedback, suggestions, or need support, please feel free to [ope
 
 
 ## Team Members Name :
-1.Rushikeh wayal
-2.Rohit Dhadambe
-3>Rashi Bajpai 
+1. Rushikeh wayal
+2. Rohit Dhadambe
+3. Rashi Bajpai
+   
