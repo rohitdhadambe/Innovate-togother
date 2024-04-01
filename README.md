@@ -60,3 +60,9 @@ We welcome contributions from all members of the community. To contribute to Inn
 ## Feedback and Support
 
 If you have any feedback, suggestions, or need support, please feel free to [open an issue]([(https://github.com/rushikeshwayal/Innovate-Together/issues]).
+
+
+## Team Members Name :
+1.Rushikeh wayal
+2.Rohit Dhadambe
+3>Rashi Bajpai 
