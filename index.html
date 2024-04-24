@@ -1,118 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovate together</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
+    <title>GitHub Projects</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
     <header>
-
-    <div class="head">
-    <div class="Title">
-        <h2>Innovate Together</h2>
-    </div>
-    <div class="head_info">
-       <a href="main\index.html">Project</a>
-       <a href="#mentor-section">Mentor</a>
-       <a href="#">Topics</a>
-       <a id="about-link" href="#about-section">About</a>
-
-  <a id="login" href="#"><i class="fa-solid fa-user" style="color: #605ffc; "></i>  Log In</a>
-       <button style="--clr:#605ffc">Register</button>
-    </div>
-    </div>
+        <h1>GitHub Projects</h1>
+        <select id="language-select">
+            <option value="all">All Languages</option>
+            <!-- Options for programming languages will be added dynamically -->
+        </select>
+        <select id="domain-select">
+            <option value="all">All Domains</option>
+            <option value="machine learning">Machine Learning</option>
+            <option value="web development">Web Development</option>
+            <option value="ai">Artificial Intelligence</option>
+            <!-- Add more domain options as needed -->
+        </select>
+        <select id="level-select">
+            <option value="all">All Levels</option>
+            <option value="beginner">Beginner</option>
+            <option value="average">Average</option>
+            <option value="advanced">Advanced</option>
+            <!-- Add more level options as needed -->
+        </select>
+        <button id="filter-button">Filter</button>
     </header>
+    <div class="loader"></div>
+    <main id="projects-container">
+        <!-- Projects will be displayed here -->
+    </main>
 
-
-
-    <div class="content">
-        <h1>Empowering <br> Innovation <br> Together</h1>
-       
-    </div>
-
-    <div class="mid">
-        <div class="text">
-        <h4>Contribute to verity of <br> project</h4>
-        <button style="--clr:#605ffc">Register</button>
-        </div>
-        <!-- <div class="video"><video  autoplay loop  src="19 (1080p).mp4" ></video></div> -->
-    </div>
-
-    <div id="about-section" class="About_Innovate_together">
-        <video   autoplay loop  src="About.mp4"></video>
-        <div class="about_content">
-        <p id="about_heading">About <br> Innovate Together</p>
-        <p id="about_heading_subtitle">Level up your coding experience with <br>
-            Innovate Together!</p>
-
-        <p id="about_ifo">"Innovate Together is a collaborative open-source project 
-            <br> dedicated to fostering innovation through shared 
-         <br> knowledge and
-        diverse expertise.
-         <br> By breaking down barriers to collaboration 
-         <br>and providing a platform for inclusive participation, 
-        <br>it enables individuals to collectively tackle 
-        <br> challenges and drive progress."</p>
-</div>
-    </div>
-
-<div class="Mentor" id="mentor-section">
-    <p id="mentor-heading">Mentor</p>
-    <div class="mentor-image">
-        <a href="https://www.linkedin.com/in/rushikesh-wayal-87134a220/" target="_blank"><img class="mentor-image"  src="Untitled design (1).png" alt="Mentor1"></a>
-        <a href="https://www.linkedin.com/in/rushikesh-wayal-87134a220/" target="_blank"><img class="mentor-image" src="Untitled design (1).png" alt="Mentor2"></a>
-   <a href="https://www.linkedin.com/in/rushikesh-wayal-87134a220/" target="_blank"><img class="mentor-image" src="Untitled design (1).png" alt="Mentor3"></a>
-    </div>
-</div>
-
-
-<hr>
-
-<footer>
-<div class="footer">
-
-   <div class="footer_upper">
-    <p>Stay in<br>the Know</p>
-    <div class="footer_join_us_Now">
-        <form action="">
-        <p>Join us Now!</p>
-    <input type="text">
-    <button style="--clr:#605ffc" >Register Now!</button>
-    </form>
-    </div>
-
-</div> 
-<hr>
-   <div class="footer_lower">
-    <p>For any questions please email
-        <br>
-    <a href="https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSBpDkJqjGwrNGMxZjBHLrNhvTxsWrSLCBNTKnqKtXhMrdLdfDfXShhPwGRrxJWKpmkzJVzl" target="_blank">rushikeshwayal6@gmail.com</a></p>
-    
-    <div class="footer_social_links">
-    <a href="https://twitter.com/Rushikesh_7_11" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
-    <a href="https://www.linkedin.com/in/rushikesh-wayal-87134a220/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></i></a>
-    <a href="https://github.com/rushikeshwayal" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
-    <a href="https://www.instagram.com/rushikesh__wayal/" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
-</div>
-</div> 
-</div>
-</footer>
-
-
-<script src="script.js"></script>
-<script>
-    window.embeddedChatbotConfig = {
-        chatbotId: "-lXJTDzXpd7ctGklouivD",
-        domain: "www.chatbase.co"
-    }
-</script>
-<script src="https://www.chatbase.co/embed.min.js" chatbotId="-lXJTDzXpd7ctGklouivD" domain="www.chatbase.co" defer>
-</script>
+    <script src="script.js"></script>
 </body>
+
 </html>
