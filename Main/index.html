@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>GitHub Projects</h1>
+        <select id="language-select">
+            <option value="all">All Languages</option>
+            <!-- Options for programming languages will be added dynamically -->
+        </select>
+        <select id="domain-select">
+            <option value="all">All Domains</option>
+            <option value="machine learning">Machine Learning</option>
+            <option value="web development">Web Development</option>
+            <option value="ai">Artificial Intelligence</option>
+            <!-- Add more domain options as needed -->
+        </select>
+        <select id="level-select">
+            <option value="all">All Levels</option>
+            <option value="beginner">Beginner</option>
+            <option value="average">Average</option>
+            <option value="advanced">Advanced</option>
+            <!-- Add more level options as needed -->
+        </select>
+        <button id="filter-button">Filter</button>
+    </header>
+    <div class="loader"></div>
+    <main id="projects-container">
+        <!-- Projects will be displayed here -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
