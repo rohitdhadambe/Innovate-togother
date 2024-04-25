@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   
+    <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
-    
+
     <form action="#" method="post" class="login">
-        <h2>Log in</h2>
+        <h2>Log In</h2>
         <div class="field">
             <input type="text" id="login-email" placeholder="Email Address" required>
         </div>
@@ -22,7 +23,7 @@
         </div>
         <div class="field btn">
             <div class="btn-layer"></div>
-            <button type="submit" id="login-button" onclick="login()" >Login</button>
+            <button type="submit" id="login-button">Login</button>
         </div>
         <div class="signup-link">
             Don't Have Account? <a href="newsignup.html">Create A New</a>
@@ -30,7 +31,7 @@
     </form>
     <script type="module" src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js"></script>
     <script type="module" src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js"></script>
-    <script type="module" src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js"></script>
     <script src="login.js" type="module"></script>
 </body>
+
 </html>
