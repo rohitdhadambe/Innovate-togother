@@ -2,14 +2,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/fireba
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
 
 const firebaseConfig = {
-  // Your Firebase configuration...
-  apiKey: "AIzaSyCsPP6vbC4H5TtITXibK1zOFqx4OYyM8qQ",
-  authDomain: "signup-signin-bc1bf.firebaseapp.com",
-  projectId: "signup-signin-bc1bf",
-  storageBucket: "signup-signin-bc1bf.appspot.com",
-  messagingSenderId: "724846968402",
-  appId: "1:724846968402:web:f69ef3c778557f86a7a98b",
-  measurementId: "G-G5ZQTT0ZCK"
+  apiKey: "AIzaSyC5m22OEi-oH9xw0IdBNaVlh9u1SIJWk6w",
+  authDomain: "inovate-togother.firebaseapp.com",
+  projectId: "inovate-togother",
+  storageBucket: "inovate-togother.firebasestorage.app",
+  messagingSenderId: "597658265743",
+  appId: "1:597658265743:web:a14ec21ad12ac747dea8fa"
 };
 
 const app = initializeApp(firebaseConfig);
